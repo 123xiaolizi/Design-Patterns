@@ -157,7 +157,7 @@ private:
 std::atomic<TaskQueue4*> TaskQueue4::m_taskqueue;
 std::mutex TaskQueue4::m_mutex;
 
-
+#if 0
 int main(char* argc, char** argv)
 {
 	TaskQueue::getInstance()->print();
@@ -198,3 +198,5 @@ int main(char* argc, char** argv)
 	t2.join();
 	return 0;
 }
+
+#endif
