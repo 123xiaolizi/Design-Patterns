@@ -187,7 +187,7 @@ public:
 
 };
 
-
+#if 0
 int main()
 {
 	Abstract_Factory* ultimatefactory = new UltimateFactory();
@@ -212,3 +212,4 @@ int main()
 	delete standarship;
 	return 0;
 }
+#endif
